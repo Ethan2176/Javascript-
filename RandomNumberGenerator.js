@@ -21,12 +21,31 @@ When we multiply 51 with 0.99 we get 50.49 , 51x0.99=50.49*/
 
 // For all other values we will get between 50 and 100.
 
-let Number = 0;
+let Number1 = 0;
+let Number2 = 0;
+let Number3 = 0;
+let Average = 0;
+
 
 const Press = document.getElementById("MyButton");
+const Text1 = document.getElementById("label2");
+const Text2 = document.getElementById("label4");
+const Text3 = document.getElementById("label6");
+const Text4 = document.getElementById("label7");
 
 Press.onclick = function(){
-    Number = Math.floor(Math.random()*51)+50 ;
-    document.getElementById("label2").textContent = Number;
+    
+    Number1 = Math.floor(Math.random()*51)+50 ;
+    Text1.textContent = Number1;
+    
+    Number2 = Math.floor(Math.random()*51)+50;
+    Text2.textContent = Number2;
 
+    Number3 = Math.floor(Math.random()*51)+50;
+    Text3.textContent = Number3;
+
+    Average = Math.trunc((Number1 + Number2 + Number3)/3);
+
+    Text4.textContent = Average;
 };
+
