@@ -1,0 +1,37 @@
+body{
+    text-align:center;
+    background-color:rgb(9, 124, 124);
+}
+
+#label1{
+   font-family : "Roboto Condensed";
+   font-size:22px;
+   font-weight:bold;
+   
+}
+
+#MyText{
+   border-style:dashed;
+   border-radius:4px;
+   border-width : 3px;
+   border-color: black;
+   font-family:"Roboto Condensed";
+   font-weight:bold;
+}
+
+#MySubmit{
+     border-style:outset;
+     border-radius:4px;
+     border-width: 3px;
+     border-color:black;
+     font-family: "Roboto Condensed";
+     font-weight:bold;
+}
+
+#Myp1{
+    font-family:"Roboto Condensed";
+    font-size:22px;
+    font-weight-bolder;
+
+}
+

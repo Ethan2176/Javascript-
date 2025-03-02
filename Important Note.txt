@@ -1,0 +1,9 @@
+.value is used to get value of form input elements for example <input>
+
+.textContent is used to get text inside non form input elements for example <p> and <label>
+
+checkbox and radio are types of input field
+The associated is so that label can use for attribute to link to that specific input field
+
+And name allows for the various input fields to only be choosen one at a time.
+
