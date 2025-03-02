@@ -51,3 +51,17 @@ switch(true){
 
 console.log(`${LetterGrade}`); // We can use this or even console.log(LetterGrade);
 
+let BloodIronLevel = 0.7;
+let Deficiency=true;
+
+switch(true){
+    case BloodIronLevel>=50:
+        Deficiency = false;
+        break;
+
+    case BloodIronLevel<50:
+        Deficiency = true;
+        break;
+}
+
+console.log(Deficiency);
