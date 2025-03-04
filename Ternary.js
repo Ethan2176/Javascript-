@@ -38,5 +38,11 @@ let FinalFees = ScholarshipPercentage=20 ? StudentFees-((20/100)*StudentFees): S
 
 console.log(`The final fees are $${FinalFees}`);
 
+let single = true;
+
+let Advice = single = true ? `You are lonely and sad`:`You are happy`;
+
+console.log(Advice);
+
 
 

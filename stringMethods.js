@@ -12,7 +12,7 @@ console.log(UserName.length); // Returns length of a string.
 
 UserName1 ="    Ethan   ";
 
-console.log(UserName1.trim()); // To remove any whitespaces
+console.log(UserName1.trim()); // To remove any whitespaces that are present either at the beginning or the end , but never in between.
 
 console.log(UserName.toUpperCase()); // To convert entire string to uppercase.
 
