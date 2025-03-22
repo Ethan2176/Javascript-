@@ -1,0 +1,47 @@
+body
+{
+text-align: center;
+background-color: rgb(128, 128, 0);
+}
+
+#myh1
+{
+    font-family: Boldonse;
+    font-weight:400;
+    font-style:oblique;
+}
+
+#myh2
+{
+   font-family: Boldonse;
+   font-weight:300;
+   font-style:oblique;
+
+}
+
+#myh22
+{
+  font-family: Boldonse;
+  font-weight:300;
+  font-style:oblique;
+
+}
+
+#myinput
+{
+  border-style:double;
+  border-width: 5px;
+  border-color: black;
+  height:23px;
+   
+}
+
+#mysubmit
+{
+  border-style:double;
+  border-width: 5px;
+  border-color: black;
+  font-family: Boldonse;
+  font-size: 16px;
+  
+}

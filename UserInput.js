@@ -18,3 +18,4 @@ username1 = document.getElementById("MyText").value
 document.getElementById("myh1").textContent = `Hello ${username1}`
 console.log(username1);
 }
+
