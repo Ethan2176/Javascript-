@@ -17,7 +17,7 @@ let TotalExpense = 0;
 
 Submit.onclick = function(event)
 {
-    event.preventDefault();
+    event.preventDefault(); // prevents page from refreshing , keeping information same 
     if(Selection.value === "Income")
     {
         TotalIncome += Number(Value.value);  // value is originally a string so we are converting it to a number to add

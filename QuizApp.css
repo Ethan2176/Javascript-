@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(0, 100, 150);
+}
+
+
+h1
+{
+    font-family: "Boldonse";
+    font-size:xx-large;
+    color:rgb(192, 192, 192);
+}
+
+h2
+{
+    font-family: "Boldonse";
+    font-weight:bold;
+    font-size:x-large;
+    color:rgb(192, 192, 192);
+}
+
+
+ol {
+    padding: 1em;
+    font-family: "Boldonse";
+    font-weight: bold;
+    color:rgb(192, 192, 192);
+   
+}
+
+#MyNameL
+{
+    font-family: "Boldonse";
+    font-weight: bold;
+    color:rgb(192, 192, 192);
+}
+
+#MyAgeL
+{
+    font-family: "Boldonse";
+    font-weight: bold;
+    color:rgb(192, 192, 192);
+}
+  
+#MyName
+{
+    border-width: 3px;
+    border-style:groove;
+    border-color: black;
+   
+}
+  
+#MyAge
+{
+    border-width: 3px;
+    border-style:groove;
+    border-color: black
+}
+
+#MySubmit
+{
+    font-family: "Boldonse";
+    font-weight: bold;
+    color:rgb(0, 100, 150);
+    background-color: rgb(192, 192, 192)
+}
+
+#MySubmitQ1
+{
+    font-family: "Boldonse";
+    font-weight: bold;
+    color:rgb(0, 100, 150);
+    background-color: rgb(192, 192, 192)
+}
+
+#MyInputQ1
+{
+    border-width: 3px;
+    border-style:groove;
+    border-color: black;
+}
+  
