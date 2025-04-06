@@ -10,7 +10,7 @@ body{
 }
 
 .FormMember {
-    display: flex; /* Enable Flexbox for each form group */
+    /*display: flex; /* Enable Flexbox for each form group */
     align-items: center; /* Center items vertically */
 }
 
@@ -22,9 +22,71 @@ label {
 .Input {
     flex: 1; /* Allow input fields to grow and fill space */
     padding: 5px; /* Add some padding for better appearance */
+    font-family: Roboto Condensed;
+    font-size: large;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:groove;
+    border-color: black;
 }
 
 #Value
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family:Roboto Condensed;
+   font-size: x-large;
 }
+
+#MySelect
+{
+    font-family: Roboto Condensed;
+    font-size: x-large;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:groove;
+    border-color: black;
+}
+
+
+#MySubmit
+{
+    font-family: Roboto Condensed;
+    font-size: x-large;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:groove;
+    border-color: black;
+}
+
+h1{
+    font-family: Roboto Condensed;
+    font-size: xx-large;
+}
+
+#MyReset
+{
+    font-family: Roboto Condensed;
+    font-size: x-large;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:groove;
+    border-color: black;
+}
+
+#TotalIncome
+{
+    font-family:Roboto Condensed;
+    font-size: x-large;
+}
+
+#TotalExpense
+{
+    font-family:Roboto Condensed;
+    font-size: x-large;
+}
+
+#Remaining
+{
+    font-family:Roboto Condensed;
+    font-size: x-large;
+}
+

@@ -20,17 +20,17 @@ Submit.onclick = function(event)
     event.preventDefault();
     if(Selection.value === "Income")
     {
-        TotalIncome += Number(Value.value);
-        labelIncome.textContent = TotalIncome;
+        TotalIncome += Number(Value.value);  // value is originally a string so we are converting it to a number to add
+        labelIncome.textContent = `Total Income : ${TotalIncome}`;
     }
 
     else if (Selection.value === "Expense")
     {
         TotalExpense += Number(Value.value);
-        labelExpense.textContent = TotalExpense;
+        labelExpense.textContent = `Total Expenses: ${TotalExpense}`;
     }
      
-    Remaining.textContent = TotalIncome - TotalExpense;
+    Remaining.textContent = `Remaining Budget : ${TotalIncome - TotalExpense}`;
 
 
 }
@@ -40,8 +40,8 @@ Reset.onclick = function()
     TotalIncome = 0;
     TotalExpense = 0;
     Value.value = "";
-    labelIncome.textContent = "";
-    labelExpense.textContent = "";
-    Remaining.textContent = "";
+    labelIncome.textContent = "Total Income : ";
+    labelExpense.textContent = "Total Expenses : ";
+    Remaining.textContent = "Remaining Budget : ";
 
 }
