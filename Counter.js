@@ -14,7 +14,11 @@ let count = 0;
 
  Decrease.onclick = function(){
      count--;
+     if(count<0){
+        count=0
+     }
      countlabel.textContent = count;
+     
  }
 
  Reset.onclick = function(){

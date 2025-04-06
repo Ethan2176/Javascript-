@@ -45,7 +45,7 @@ let UserName = email.slice(0,email.indexOf("@"));
 
 console.log(UserName);
 
-let Extension = email.slice(email.indexOf("@")+1);
+let Extension = email.slice(email.indexOf("@"));
 
 console.log(Extension);
 

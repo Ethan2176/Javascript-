@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(3, 141, 195);
+}
+
+.FormContainer {
+    display: flex;
+    flex-direction: column; /* Stack form groups vertically */
+    gap: 10px; /* Space between form groups */
+    
+}
+
+.FormMember {
+    display: flex; /* Enable Flexbox for each form group */
+    align-items: center; /* Center items vertically */
+}
+
+label {
+    margin-right: 10px; /* Space between label and input */
+    width: 150px; /* Fixed width for labels to align inputs */
+}
+
+.Input {
+    flex: 1; /* Allow input fields to grow and fill space */
+    padding: 5px; /* Add some padding for better appearance */
+}
+
+#Value
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

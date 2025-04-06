@@ -24,6 +24,8 @@
  let x5 ="0";
  let x6 ="0";
 
+ console.log(`The type of "0" is ${typeof x6}`);
+
   x4 = Number(x4);
   x5 = String(x5);
   x6 = Boolean(x6);
