@@ -1,0 +1,31 @@
+localStorage is a way for storing data in a broswer across multiple web pages
+and it stays that way even after refreshing or leaving the page and coming back 
+
+set data 
+
+localStorage.setItem("Score",3)
+
+"score" -> This is the label under which you are storing your data.
+
+3 -> This is the value you are storing.
+
+get data 
+
+localStorage.getItem("score")
+
+-> getting it back with the label
+-> get item doesnt print anything 
+
+let Score = parseInt(localStorage.getItem("Score")) || 0;
+
+get returns string thats why we convert to int for calculations
+This allows us to set Score to 0 initially and then lets us update later on 
+
+we cannot use set as we instead of get here as we will be referencing Score even before it exists.
+
+thats why we use get instead of set.
+
+gets will initially score as 0 as we have not yet defined it but later on in fxns will give us the value of score.
+
+
+

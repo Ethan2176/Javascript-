@@ -27,55 +27,26 @@ ol {
    
 }
 
-#MyNameL
-{
-    font-family: "Boldonse";
-    font-weight: bold;
-    color:rgb(192, 192, 192);
-}
-
-#MyAgeL
+.Details 
 {
     font-family: "Boldonse";
     font-weight: bold;
     color:rgb(192, 192, 192);
 }
   
-#MyName
-{
-    border-width: 3px;
-    border-style:groove;
-    border-color: black;
-   
-}
   
-#MyAge
-{
-    border-width: 3px;
-    border-style:groove;
-    border-color: black
-}
-
-#MySubmit
+.Submit
 {
     font-family: "Boldonse";
     font-weight: bold;
     color:rgb(0, 100, 150);
     background-color: rgb(192, 192, 192)
+
 }
 
-#MySubmitQ1
-{
-    font-family: "Boldonse";
-    font-weight: bold;
-    color:rgb(0, 100, 150);
-    background-color: rgb(192, 192, 192)
-}
-
-#MyInputQ1
+.Input
 {
     border-width: 3px;
     border-style:groove;
     border-color: black;
 }
-  

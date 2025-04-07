@@ -1,0 +1,12 @@
+.MyH1
+{
+    text-align: center;
+    font-family:"Boldonse";
+    font-size:xx-large;
+    color:rgb(192, 192, 192);
+}
+
+body
+{
+    background-color: rgb(0, 100, 150);
+}
