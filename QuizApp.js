@@ -245,12 +245,14 @@ if(SubmitQ3)
                                   }
                             
                                  SubmitQ10.disabled = true;
-
+                                 window.location.href = "Results.html";
                                  
                                }
                               }
-                                  
-                                 
+                                
+                              
+                              
+
                                  
    
                                
