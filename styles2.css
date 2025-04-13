@@ -1,0 +1,89 @@
+body {
+    font-family: "Boldonse";
+    background-color: rgb(141,182,0);
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(70, 130, 120);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color:rgb(141,182,0); /* Apple Green */
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #021302; /* Apple Green */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color:rgb(141,182,0); /* Apple Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+h2 {
+    color: #3e2723; /* Brown */
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    color : rgb(70, 130, 120);
+}
+
+.remove-button {
+    background-color: rgb(141, 182, 0); 
+    color: rgb(70, 130, 120);
+    border: none;
+    border-radius: 4px;
+    font-family : "Boldonse";
+    
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c62828; /* Darker Red */
+}
+
+#taskInput
+{
+    font-family: "Boldonse";
+    color :rgb(132, 132, 132);
+}
+
+#addTaskButton
+{
+    font-family : "Boldonse";
+    color :rgb(70, 130, 120);
+}
+
+.task label {
+    color: rgb(0, 86, 59); /* Change this to your desired color */
+    font-weight: bold; /* Optional: make the text bold */
+}
+
+#resetButton
+{
+    font-family : "Boldonse";
+    color :rgb(70, 130, 120);
+}
