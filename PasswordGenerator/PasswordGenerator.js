@@ -16,6 +16,7 @@ Output.textContent = `Your Password is ${Password}`;
 
 Reset.onclick = function ResetWebsite()
 {
+    Password="";
     Output.textContent="";
 }
 
